@@ -1,0 +1,110 @@
+body{
+	background-color: grey;
+	margin:0;
+}
+
+
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 150px;
+  background-color: #00b7ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 1px 2px black; 
+  font-weight: bold;
+}
+
+select {
+	height: 40px;
+	width: 180px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+ul {
+	overflow: hidden;
+	background-color: #333;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+a.menu {
+	color: white;
+	float: left;
+	text-align: center;
+	font-size: 25px;
+	padding: 14px 16px;
+	border-right: 1px black solid; 
+}
+
+a.menu:hover{
+	background-color: #787878
+}
+
+#Ergebnis{
+	margin-top: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	text-shadow: 2px 2px #232323;
+	color: #fff000;
+}
+
+#chatbox{
+
+	background-color: #888;
+	overflow:auto;
+	width: 100% - 5px;
+	height: 1000px;
+	border: 3px black solid;
+}
+#chat{
+
+	background-color: grey;
+}
+
+a.user:hover{
+	background-color: green;
+}
+Form{	
+	text-align: center;
+	background-color: #666666;
+}
+button#scroll{
+    width: 200px;
+    background-color: #db9b04;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 1px 2px black; 
+    font-weight: bold;	
+}
+Form#loginForm{
+	padding-top: 50px;
+	float: left;
+	width: 50%;
+	height: 500px;
+}
+Form#registerForm{
+	padding-top: 50px;	
+	float: right;
+	width: 50%;
+	height: 500px;
+}
